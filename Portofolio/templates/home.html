@@ -1,0 +1,109 @@
+{% extends 'index.html' %}
+
+{%  block head %}   <title>Home - VigoFolio</title> {% endblock %}
+
+{% block content %}
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-warning portfolio-navbar ">
+    <div class="container">
+        <a class="navbar-brand logo"" href="/"><img src="/static/img/vigofolio.png" style="width: 90px; height: 80px; "></img></a><button data-bs-toggle="collapse"  class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav"  >
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item"><a class="nav-link" href="/" style="color:rgb(0, 0, 0) ; border-bottom: 5px solid rgb(2, 204, 255); font-weight:bolder; font-size: 19px;">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="project1" style="color:rgb(29, 29, 29) ; font-weight:500; font-size: 17px;">Project Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="hire" style="color:rgb(29, 29, 29)  ; font-weight:500; font-size: 17px;">Hire me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background-image:url(/static/img/vignesh.jpg);"></div>
+                <div class="about-me" style="align-items:center;">
+                    <p>Hello! I am <strong style="color:  rgb(0, 140, 255); font-weight: bold;">Vigneshwaran M</strong>. I'm interested in Cybersecurity field, as well as I like coding and I love to Solve problems arise in it.
+                      I'm an Energitic Person, having an ability to adapt in any Environment.
+                        
+                        </p><a class="btn btn-outline-lg btn-primary" role="button" href="hire">Hire me</a>
+                </div>
+            </div>
+        </section>
+        <br>
+       
+        <section class="portfolio-block photography">
+            <div class="container" >
+                <div class="row g-0">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/static/img/website_home.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/static/img/website_center.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/static/img/phoneapp_corner.png" height="500px" width="500px"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3>Like what you see?</h3><a href="hire" style="text-decoration:none;"><button class="btn btn-outline-dark btn-warning" type="button"><strong>Hire me</strong></button></a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2 style="color: rgb(0, 0, 0); font-weight:bolder;">Special Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Development</h3>
+                                <p class="card-text">Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">App Development</h3>
+                                <p class="card-text">Application development involves the process, life, and creation of the software aimed at helping users. Mobile Developers work closely with computer analysts and engineers in using languages such as Java and C++ to develop the necessary specifications for software.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Networking</h3>
+                                <p class="card-text">Networking, also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website bg-warning">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Skill / Job Recommender Application</h3>
+
+                    <p style="text-align:center">The Skill/job recommender application system aims to help users in finding a good candidate or good job that match their personnel/company requirements. It helps user to select or recommend a best job or skill for him based on their skillset.</p>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="screen">
+                            <div class="screen-content" style="background-image:url(/static/img/website_home.png);"></div>
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    {% endblock %}

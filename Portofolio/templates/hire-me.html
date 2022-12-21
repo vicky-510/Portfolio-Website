@@ -1,0 +1,52 @@
+{% extends 'index.html' %}
+
+{%  block head %} 
+
+    <title>Hire me - VigoFolio</title> {% endblock %}
+
+    {% block content %} 
+    
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-warning portfolio-navbar ">
+        <div class="container">
+            <a class="navbar-brand logo"" href="/"><img src="/static/img/vigofolio.png" style="width: 90px; height: 80px; "></img></a><button data-bs-toggle="collapse"  class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav"  >
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="nav-link" href="/" style="color:rgb(29, 29, 29) ; font-weight:500; font-size: 17px; ">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project1" style="color:rgb(29, 29, 29) ; font-weight:500; font-size: 17px;">Project Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hire" style="color:rgb(0, 0, 0) ; border-bottom: 5px solid rgb(2, 204, 255); font-weight:bolder; font-size: 18px;">Hire me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page hire-me-page">
+        <section class="portfolio-block hire-me">
+            <div class="container">
+                <div class="heading">
+                    <h2>Hire Me</h2>
+                </div>
+                <form action="hire" method='post'>
+                    {% if success %}
+                    <div class="alert alert-success" role="alert">
+                       Your message has been sent successfully!
+                      </div>
+                    {% endif %}
+                    <div class="mb-3"><label class="form-label" for="sub">Subject</label><input class="form-control item" name="sub" type="text" id="subject"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Name</label><input class="form-control" type="name" id="name" name="name"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" name="email"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Phone</label><input class="form-control" type="tel" id="phone" name="phone"></div>
+                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message" name="message"></textarea></div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-6"><label class="form-label" for="hire-date">Date</label><input class="form-control" id="hire-date" name="date" type="date"></div>
+                            <div class="col-md-6 button"><button class="btn btn-warning d-block w-100" type="submit">Hire Me</button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+   
+    {% endblock %}

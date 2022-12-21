@@ -1,0 +1,244 @@
+{% extends 'index.html' %}
+
+{% block head %}<title>CV - VigoFolio</title> 
+{% endblock %}
+
+{% block content %}
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-warning portfolio-navbar ">
+    <div class="container">
+        <a class="navbar-brand logo"" href="/"><img src="/static/img/vigofolio.png" style="width: 90px; height: 80px; "></img></a><button data-bs-toggle="collapse"  class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav"  >
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item"><a class="nav-link" href="/" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="project1" style="color:rgb(29, 29, 29) ; font-weight:500; font-size: 17px;">Project Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume" style="color:rgb(0, 0, 0) ; border-bottom: 5px solid rgb(2, 204, 255); font-weight:bolder; font-size: 18px;">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact" style="color:rgb(29, 29, 29);  font-weight:500; font-size: 17px;">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="hire" style="color:rgb(29, 29, 29)  ; font-weight:500; font-size: 17px;">Hire me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    <main class="page cv-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background-image:url(/static/img/vignesh.jpg);"></div>
+                <div class="about-me" style="align-items:center; justify-content: center;">
+                    <p>Hello! I am <strong style="color:   rgb(0, 140, 255); font-weight: bold;">Vigneshwaran M</strong>. I'm currently pursuing my B.E degree in Computer Science and Engineering from K.L.N.College Of Information Technology, Sivagangai.</p><p> I'm interested in Cybersecurity field as well as I like coding and I love to Solve problems arise in it.
+                      I'm an Energitic Person and having an ability to adapt in any Environment.
+                        
+                        </p><a class="btn btn-outline-primary" role="button" href="hire">Hire me</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block cv">
+            <div class="container">
+                <div class="work-experience group">
+                    <div class="heading">
+                        <h2 class="text-center">Projects</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Skill/Job Recommender Application</h3>
+                                <h4 class="organization">Website name: Job Hunter</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">09/2022 - 11/2022</span></div>
+                        </div>
+                        <p class="text-muted">The Skill/job recommender application system aims to help users in finding a good candidate or good job that match their personnel/company requirements. It helps user to select or recommend a best job or skill for him based on their skillset.
+                            <br><strong>Git-hub link:</strong>https://github.com/IBM-EPBL/IBM-Project-27159-1660048023
+                            <br><strong>Project Deployment link:</strong>  http://169.51.203.224:31374/ 
+                            <br><strong>Project Demo link:</strong>   https://youtu.be/revlgYJUR6Q</p>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Blood Bank Management System Using Android Application</h3>
+                                <h4 class="organization">App name: AyunaPro</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">01/2022 - 04/2022</span></div>
+                        </div>
+                        <p class="text-muted">Blood Bank Management System Using Android Application is a type of blood bank app. The motive of creating this app is to help people, to get blood in an emergency situation.</p>
+                    </div>
+                    <!--   -->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Portfolio Website</h3>
+                                <h4 class="organization">Website name: VigoFolio</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">11/2022 - 12/2022</span></div>
+                        </div>
+                        <p class="text-muted">The Portfolio website is a type of web application, it is mainely created for showcasing my skills and let others know about Myself. It is one of the best ways to express my personality, experience, and capabilities.</p>
+                    </div>
+                </div>
+                <div class="education group">
+                    <div class="heading">
+                        <h2 class="text-center">Education</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Bachelor Of Engineering - CSE</h3>
+                                <h4 class="organization">K.L.N.College Of Information Technology</h4>
+                            </div>
+                            <div class="col-6"><span class="period">09/2019 - 05/2023</span></div>
+                        </div>
+                        <p class="text-muted"><strong>CGPA:</strong> 8.32 (upto 6th sem)</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>12th std - BioMaths</h3>
+                                <h4 class="organization">Phoenix Matric Hr.Sec School 
+                                   </h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">06/2018 - 05/2019</span></div>
+                        </div>
+                        <p class="text-muted"><strong>Percent:</strong> 76%</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>10th std</h3>
+                                <h4 class="organization">Phoenix Matric Hr.Sec School 
+                                   </h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">06/2016 - 05/2017</span></div>
+                        </div>
+                        <p class="text-muted"><strong>Percent:</strong> 92.4%</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skills portfolio-info-card">
+                                <h2>Skills</h2>
+                                <h3>Java</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span class="visually-hidden">100%</span></div>
+                                </div>
+                                <h3>C</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="visually-hidden">90%</span></div>
+                                </div>
+                                <h3>Networking</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="visually-hidden">90%</span></div>
+                                </div>
+                                <h3>Android</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="visually-hidden">80%</span></div>
+                                </div>
+                                <h3>Html</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">80%</span></div>
+                                </div>
+                                <h3>Css</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">80%</span></div>
+                                </div>
+                                <h3>Bootstrap</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">80%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-info portfolio-info-card">
+                                <h2>Contact Info</h2>
+                               
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
+                                    <div class="col-9"><span>Vigneshwaran M</span></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
+                                    <div class="col-9"><span>24/05/2001</span></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                                    <div class="col-9"><span>+91-8189950272</span></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
+                                    <div class="col-9"><span>vignesh510510@gmail.com</span></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-social-github icon"></i></div>
+                                    <div class="col-9"><span>www.github.com/vicky-510</span></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"><i class="icon ion-social-linkedin icon"></i></div>
+                                    <div class="col-9"><span>www.linkedin.com/vwaran</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobbies group">
+                    <div class="heading">
+                        <h2 class="text-center">Achievements</h2>
+                    </div>
+                    <p class="text-center text-muted"><strong>Runner-up Position in the chess game with a team of 5 members, during my college sports meet in the year 2020.</strong></p>
+                </div>
+
+                <div class="education group">
+                    <div class="heading">
+                        <h2 class="text-center">Certifications</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Certified Hacking Defender</h3>
+                                <h4 class="organization">Elysium Academy</h4>
+                            </div>
+                            <div class="col-6"><span class="period">09/2020 - 12/2020</span></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Cybersecurity Virtual Experience Program</h3>
+                                <h4 class="organization">Mastercard 
+                                   </h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">07/2022</span></div>
+                        </div>
+                      
+                    </div>
+                   
+                    <div class="group">
+                        
+                                <div class="heading">
+                                    <h2 class="text-center">Languages</h2>
+                                </div>
+                                <div class="skills portfolio-info-card">
+                                    
+                                    <h3>English</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="85" style="width: 80%;"><span class="visually-hidden">100%</span></div>
+                                    </div>
+                                    <h3>Tamil</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">90%</span></div>
+                                    </div>
+                                
+                               
+                            </div>
+                                 
+                                <br>
+                                <br>
+                                <br>
+                                <a href="resume_down" style="text-decoration: none;"><button class="btn-dow"><i class="fa fa-download text-warning"></i>&nbsp; Click to Download Resume</button></a>
+                       
+            </div>
+        </section>
+    </main>
+    
+    {% endblock %}
