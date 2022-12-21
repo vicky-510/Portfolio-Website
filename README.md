@@ -33,7 +33,7 @@ This webpage contains Short Introduction `about Me`, `Project Page`, `Resume`, `
 
 ![Screenshot (134)](https://user-images.githubusercontent.com/103897625/208889975-c62fcdcf-ea8c-47bc-a004-16a5e06134aa.png)
 
-![Screenshot (135)](https://user-images.githubusercontent.com/103897625/208891142-05db3e81-493c-435c-81a9-f26d0Resume download.png)
+![Screenshot (135)](https://user-images.githubusercontent.com/103897625/208894249-9ffbf9df-79ee-4b0a-a916-0b2c06150dcb.png)
 
 ## Resume download Page
 
