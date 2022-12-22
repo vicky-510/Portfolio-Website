@@ -9,7 +9,7 @@
 
 ## Appendix
 
-This webpage contains Short Introduction `about Me`, `Project Page`, `Resume`, `Contacts`  and `Hire-me` page.
+This website contains `about Me`, `Project Page`, `Resume`, `Contacts`  and `Hire-me` page.
 
 
 ## Screenshots
